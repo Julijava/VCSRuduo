@@ -56,8 +56,11 @@ namespace VCSRuduo.Tests
             InputPage page = new InputPage(_driver);
 
             page.InsertBothValuesToInputField(firstValue, secondValue);
+
             page.ClickGetTotalButton();
+
             page.VeryfySumResult(expectedResult);
+            //GIT Comment
         }
     }
 }
